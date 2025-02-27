@@ -1,7 +1,7 @@
 //RaizQuadradaDeVinteECinco.java
 package com.betrybe.helloworld;
 
-import java.lang.*;
+import java.lang.*; //importa todas as classes do pacote java.lang
 import java.lang.Math;
 
 public class RaizQuadradaDeVinteECinco {
