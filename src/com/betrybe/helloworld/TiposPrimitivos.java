@@ -31,5 +31,32 @@ public class TiposPrimitivos {
         long numB = 102030405060L; // adicionado L no final para indicar que estamos inserindo um valor do tipo long
         System.out.println(numA);
         System.out.println(numB);
+
+        // O float é compacto, e ideal para tarefas leves, enquanto o double tem o dobro da precisão do tipo float e
+       // está apto para lidar com cálculos mais complexos.
+        float numAf = -101.23f;
+        float numBf = 2.356f;
+        System.out.println(numAf + numBf); // -98.874
+
+        // O tipo primitivo double é um tipo de ponto flutuante de precisão dupla. É o tipo primitivo numérico
+        double valorUm = 0.5; // double inicializado naturalmente
+        double valorDois = 0.5d; // double definido explicitamente
+        double valorTres = 0.123456789; // várias casas decimais
+        System.out.println(valorUm); // 0.5
+        System.out.println(valorDois); // 0.5
+        System.out.println(valorTres); // 0.123456789
+
+        // O tipo primitivo char é um tipo de dado que armazena um único caractere Unicode. A sua representação
+        // pode ser feita por um caractere entre aspas simples ou numérica (código Unicode).
+        char letraA = 'a';
+        char letraAUnicode= 65; // 65 é o código Unicode para a letra A
+        System.out.println(letraA); // a
+        System.out.println(letraAUnicode); // A
+
+        // O tipo primitivo boolean é um tipo de dado que armazena apenas dois valores: true ou false.
+        boolean isBoolean = true;
+        boolean isStarted = false;
+        System.out.println(isBoolean); // true
+        System.out.println(isStarted); // false
     }
 }
