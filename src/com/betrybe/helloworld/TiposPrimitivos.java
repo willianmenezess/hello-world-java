@@ -39,6 +39,7 @@ public class TiposPrimitivos {
         System.out.println(numAf + numBf); // -98.874
 
         // O tipo primitivo double é um tipo de ponto flutuante de precisão dupla. É o tipo primitivo numérico
+        // que possui a maior precisão.
         double valorUm = 0.5; // double inicializado naturalmente
         double valorDois = 0.5d; // double definido explicitamente
         double valorTres = 0.123456789; // várias casas decimais
