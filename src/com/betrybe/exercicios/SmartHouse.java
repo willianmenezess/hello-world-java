@@ -38,3 +38,4 @@ public class SmartHouse {
         return lampadaLigada;
     }
 }
+
