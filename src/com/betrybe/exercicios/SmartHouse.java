@@ -37,5 +37,9 @@ public class SmartHouse {
     public boolean isLampadaLigada() {
         return lampadaLigada;
     }
+
+    public boolean conectarInternet(double rate) {
+        return rate > 0.5;
+    }
 }
 
