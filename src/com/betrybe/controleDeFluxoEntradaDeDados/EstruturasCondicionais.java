@@ -9,12 +9,12 @@ public class EstruturasCondicionais {
     }
 
     public void resultado() {
-        if (this.mediaFinal >= 7) {
-            this.resultado = "Aprovado";
-        } else if (this.mediaFinal >= 5) {
-            this.resultado = "Recuperação";
+        if (mediaFinal >= 7) {
+            resultado = "Aprovado";
+        } else if (mediaFinal >= 5) {
+            resultado = "Recuperação";
         } else {
-            this.resultado = "Reprovado";
+            resultado = "Reprovado";
         }
     }
 
