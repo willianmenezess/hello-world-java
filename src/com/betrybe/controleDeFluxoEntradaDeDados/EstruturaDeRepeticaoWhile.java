@@ -1,6 +1,13 @@
 package com.betrybe.controleDeFluxoEntradaDeDados;
 
 public class EstruturaDeRepeticaoWhile {
+    // A estrutura de repetição WHILE (‘Enquanto’) é utilizada quando não se sabe o número de vezes que um bloco de código
+    // deve ser executado, ou seja, quando não se tem uma previsibilidade de número de ocorrências.
+    // O WHILE executa um bloco de código enquanto uma condição for verdadeira (true).
+    // A condição é verificada antes da execução do bloco de código, ou seja, se a condição for falsa (false) na primeira verificação,
+    // o bloco de código não será executado.
+
+    // metodos
     public void estruturaWhile() {
         // Cria um array com os inscritos
         String[] inscritos = { "MARCOS", "ALINE", "LUCAS", "PATRICIA", "JOAO", "FELIPE", "LUCIA", "ANTONIO", "FERNANDA",

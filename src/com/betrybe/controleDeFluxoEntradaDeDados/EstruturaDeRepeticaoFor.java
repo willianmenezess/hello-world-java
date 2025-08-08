@@ -17,8 +17,7 @@ public class EstruturaDeRepeticaoFor {
 
     // metodos
     public void estruturaFor() {
-        for (int i = 0; i < 10; i++) {
-            numero = i;
+        for (numero = 0; numero < 10; numero++) {
             log = "O Número atual é: " + numero + "\n";
             System.out.println(log);
         }
