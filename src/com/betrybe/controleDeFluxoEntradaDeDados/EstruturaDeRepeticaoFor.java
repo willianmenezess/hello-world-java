@@ -4,6 +4,8 @@ public class EstruturaDeRepeticaoFor {
     //  A grande diferença entre FOR (‘Para’) e WHILE (‘Enquanto’) é que no FOR você precisa ter uma previsibilidade
     //  de número de ocorrências, diferente do WHILE, que prossegue enquanto alguma condição for verdadeira (true).
     //  O comando FOR faz parte da estrutura de fluxo de repetição.
+
+    // atributos
     int numero;
     String log;
     // Cria um vetor com 4 alunos
@@ -13,6 +15,7 @@ public class EstruturaDeRepeticaoFor {
     int posicao;
     int totalAlunos;
 
+    // metodos
     public void estruturaFor() {
         for (int i = 0; i < 10; i++) {
             numero = i;
@@ -37,6 +40,7 @@ public class EstruturaDeRepeticaoFor {
         }
     }
 
+    //metodo main
     public static void main(String[] args) {
         EstruturaDeRepeticaoFor estruturaDeRepeticaoFor = new EstruturaDeRepeticaoFor();
         estruturaDeRepeticaoFor.estruturaFor();
